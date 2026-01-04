@@ -1,0 +1,69 @@
+@font-face {
+  font-display: swap;
+  font-family: "Dela Gothic One";
+  font-style: normal;
+  font-weight: 400;
+  src: url("./assets/dela-gothic-one-v19-latin-regular.woff2") format("woff2");
+}
+
+@font-face {
+  font-display: swap;
+  font-family: "Fredoka";
+  font-style: normal;
+  font-weight: 400;
+  src: url("./assets/fredoka-v17-latin-regular.woff2") format("woff2");
+}
+@font-face {
+  font-display: swap;
+  font-family: "Fredoka";
+  font-style: normal;
+  font-weight: 500;
+  src: url("./assets/fredoka-v17-latin-500.woff2") format("woff2");
+}
+@font-face {
+  font-display: swap;
+  font-family: "Fredoka";
+  font-style: normal;
+  font-weight: 600;
+  src: url("./assets/fredoka-v17-latin-600.woff2") format("woff2");
+}
+@font-face {
+  font-display: swap;
+  font-family: "Fredoka";
+  font-style: normal;
+  font-weight: 700;
+  src: url("./assets/fredoka-v17-latin-700.woff2") format("woff2");
+}
+
+@font-face {
+  font-display: swap;
+  font-family: "Lobster";
+  font-style: normal;
+  font-weight: 400;
+  src: url("./assets/lobster-v32-latin-regular.woff2") format("woff2");
+}
+
+@theme {
+  --font-display: "Dela Gothic One", display;
+  --font-sans: "Fredoka", sans-serif;
+  --font-cursive: "Lobster", cursive;
+}
+
+:root {
+  @apply font-sans;
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    color: #213547;
+    background-color: #ffffff;
+  }
+}
