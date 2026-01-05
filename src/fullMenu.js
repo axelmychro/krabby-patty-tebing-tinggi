@@ -1,33 +1,82 @@
-import chickenBurgerImg from "./assets/burger_chicken.jpg";
-import beefBurgerImg from "./assets/burger_beef.jpg";
-import chickenToastImg from "./assets/toast_chicken.jpg";
-import beefToastImg from "./assets/toast_beef.jpg";
+import imgBurgerChickenSingle from './assets/image/burger_chicken_single.webp'
+import imgBurgerChickenDouble from './assets/image/burger_chicken_double.webp'
+import imgBurgerBeefSingle from './assets/image/burger_beef_single.webp'
+import imgBurgerBeefDouble from './assets/image/burger_beef_double.webp'
+import eggToastImg from './assets/image/toast_egg.webp'
+import chickenToastImg from './assets/image/toast_chicken.webp'
+import beefToastImg from './assets/image/toast_beef.webp'
 
 export const fullMenu = [
   {
     featured: true,
-    name: "Burger Ayam",
-    description: "Single Chicken Burger",
-    price: "Rp15.000",
-    image: chickenBurgerImg,
+    id: 'burger-chicken-single',
+    category: 'burger',
+    subcategory: 'chicken',
+    label: 'Burger Ayam',
+    description: 'Single Chicken Burger',
+    price: 16000,
+    image: imgBurgerChickenSingle,
+    tags: ['burger', 'chicken', 'single'],
+  },
+  {
+    id: 'burger-chicken-double',
+    category: 'burger',
+    subcategory: 'chicken',
+    label: 'Burger Ayam',
+    description: 'Double Chicken Burger',
+    price: 22000,
+    image: imgBurgerChickenDouble,
+    tags: ['burger', 'chicken', 'double'],
   },
   {
     featured: true,
-    name: "Burger Sapi",
-    description: "Single Beef Burger",
-    price: "Rp18.000",
-    image: beefBurgerImg,
+    id: 'burger-beef-single',
+    category: 'burger',
+    subcategory: 'beef',
+    label: 'Burger Sapi',
+    description: 'Single Beef Burger',
+    price: 19000,
+    image: imgBurgerBeefSingle,
+    tags: ['burger', 'beef', 'single'],
   },
   {
-    name: "Toast Ayam",
-    description: "Single Chicken Toast",
-    price: "Rp16.000",
-    image: chickenToastImg,
+    id: 'burger-beef-double',
+    category: 'burger',
+    subcategory: 'beef',
+    label: 'Burger Sapi',
+    description: 'Double Beef Burger',
+    price: 28000,
+    image: imgBurgerBeefDouble,
+    tags: ['burger', 'beef', 'double'],
   },
   {
-    name: "Toast Sapi",
-    description: "Single Beef Toast",
-    price: "Rp19.000",
-    image: chickenToastImg,
+    id: 'toast-egg',
+    category: 'toast',
+    subcategory: 'egg',
+    label: 'Egg Toast',
+    description: 'Fried egg, cheese, toasted bread',
+    price: 19000,
+    image: eggToastImg,
+    tags: ['toast', 'egg'],
   },
-];
+  {
+    id: 'toast-chicken',
+    category: 'toast',
+    subcategory: 'chicken',
+    label: 'Chicken Toast',
+    description: 'Chicken patty, cheese, toasted bread',
+    price: 17000,
+    image: chickenToastImg,
+    tags: ['toast', 'chicken'],
+  },
+  {
+    id: 'toast-beef',
+    category: 'toast',
+    subcategory: 'beef',
+    label: 'Beef Toast',
+    description: 'Beef patty, cheese, toasted bread',
+    price: 20000,
+    image: beefToastImg,
+    tags: ['toast', 'beef'],
+  },
+]
