@@ -1,11 +1,11 @@
 # Kraby Paty Tebing Tinggi
 
-> [!NOTE] This is a landing page built for a local burger UMKM to promote their
-> business and strengthen their online presence.
+> [!NOTE]
+> This is a landing page built for a local burger UMKM to promote their business and strengthen their online presence.
 
-> [!IMPORTANT] The source code is licensed under the MIT License.  
-> Business name, image, and content are used for demonstration purposes and are
-> not licensed for reuse.
+> [!IMPORTANT]
+> The source code is licensed under the MIT License.  
+> Business name, image, and content are used for demonstration purposes and are not licensed for reuse.
 
 ### About the Business
 
@@ -28,5 +28,5 @@ GrabFood.
 ### Tech Stack
 
 - Vite + Preact
-- Tailwind CSS
+- Tailwind
 - Vercel ([visit website](https://krabypaty-tebingtinggi.vercel.app))

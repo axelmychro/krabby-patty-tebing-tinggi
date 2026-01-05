@@ -26,7 +26,7 @@ export function MenuList({ filter = 'all', ctaSize = 'md' }) {
   }
 
   return (
-    <div className="flex flex-col items-center gap-2">
+    <div className="mt-2 flex flex-wrap items-center justify-center gap-2 not-lg:flex-col">
       {filteredItems.map(item => (
         <div
           key={item.id}
@@ -34,11 +34,11 @@ export function MenuList({ filter = 'all', ctaSize = 'md' }) {
         >
           <div className="flex flex-row justify-between overflow-hidden">
             <div className="flex-1 p-2">
-              <h3 className="text-2xl font-medium tracking-tight text-red-400 text-shadow-xs">
+              <h3 className="text-2xl font-medium tracking-wide text-red-400 text-shadow-xs">
                 {item.label}
               </h3>
-              <p className="text-zinc-500">{item.description}</p>
-              <p className="block text-xl font-semibold tracking-wide text-zinc-800 uppercase">
+              <p className="tracking-wide text-zinc-500">{item.description}</p>
+              <p className="block text-xl font-semibold tracking-tight text-zinc-800 uppercase">
                 {formatPrice(item.price)}
               </p>
             </div>
