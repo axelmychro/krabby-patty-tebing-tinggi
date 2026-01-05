@@ -1,4 +1,4 @@
-import { fullMenu } from '../fullMenu'
+import { fullMenu } from '../data/fullMenu'
 import { OrderCTA } from './OrderCTA'
 
 const formatPrice = price => `Rp${price.toLocaleString('id-ID')}`

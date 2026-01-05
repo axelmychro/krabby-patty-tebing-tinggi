@@ -1,10 +1,9 @@
-import imgBurgerChickenSingle from './assets/image/burger_chicken_single.webp'
-import imgBurgerChickenDouble from './assets/image/burger_chicken_double.webp'
-import imgBurgerBeefSingle from './assets/image/burger_beef_single.webp'
-import imgBurgerBeefDouble from './assets/image/burger_beef_double.webp'
-import eggToastImg from './assets/image/toast_egg.webp'
-import chickenToastImg from './assets/image/toast_chicken.webp'
-import beefToastImg from './assets/image/toast_beef.webp'
+import imgBurgerChickenSingle from '../assets/image/burger_chicken_single.webp'
+import imgBurgerChickenDouble from '../assets/image/burger_chicken_double.webp'
+import imgBurgerBeefSingle from '../assets/image/burger_beef_single.webp'
+import imgBurgerBeefDouble from '../assets/image/burger_beef_double.webp'
+import chickenToastImg from '../assets/image/toast_chicken.webp'
+import beefToastImg from '../assets/image/toast_beef.webp'
 
 export const fullMenu = [
   {
@@ -48,16 +47,6 @@ export const fullMenu = [
     price: 28000,
     image: imgBurgerBeefDouble,
     tags: ['burger', 'beef', 'double'],
-  },
-  {
-    id: 'toast-egg',
-    category: 'toast',
-    subcategory: 'egg',
-    label: 'Egg Toast',
-    description: 'Fried egg, cheese, sauce, mayonnaise',
-    price: 19000,
-    image: eggToastImg,
-    tags: ['toast', 'egg'],
   },
   {
     id: 'toast-chicken',

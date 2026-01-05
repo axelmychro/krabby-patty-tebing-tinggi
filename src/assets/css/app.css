@@ -3,7 +3,7 @@
   font-family: 'Dela Gothic One';
   font-style: normal;
   font-weight: 400;
-  src: url('./assets/dela-gothic-one-v19-latin-regular.woff2') format('woff2');
+  src: url('../fonts/dela-gothic-one-v19-latin-regular.woff2') format('woff2');
 }
 
 @font-face {
@@ -11,28 +11,28 @@
   font-family: 'Fredoka';
   font-style: normal;
   font-weight: 400;
-  src: url('./assets/fredoka-v17-latin-regular.woff2') format('woff2');
+  src: url('../fonts/fredoka-v17-latin-regular.woff2') format('woff2');
 }
 @font-face {
   font-display: swap;
   font-family: 'Fredoka';
   font-style: normal;
   font-weight: 500;
-  src: url('./assets/fredoka-v17-latin-500.woff2') format('woff2');
+  src: url('../fonts/fredoka-v17-latin-500.woff2') format('woff2');
 }
 @font-face {
   font-display: swap;
   font-family: 'Fredoka';
   font-style: normal;
   font-weight: 600;
-  src: url('./assets/fredoka-v17-latin-600.woff2') format('woff2');
+  src: url('../fonts/fredoka-v17-latin-600.woff2') format('woff2');
 }
 @font-face {
   font-display: swap;
   font-family: 'Fredoka';
   font-style: normal;
   font-weight: 700;
-  src: url('./assets/fredoka-v17-latin-700.woff2') format('woff2');
+  src: url('../fonts/fredoka-v17-latin-700.woff2') format('woff2');
 }
 
 @font-face {
@@ -40,7 +40,7 @@
   font-family: 'Lobster';
   font-style: normal;
   font-weight: 400;
-  src: url('./assets/lobster-v32-latin-regular.woff2') format('woff2');
+  src: url('../fonts/lobster-v32-latin-regular.woff2') format('woff2');
 }
 
 @theme {
@@ -71,3 +71,5 @@
 html {
   scroll-behavior: smooth;
 }
+
+@import 'tailwindcss';

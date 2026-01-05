@@ -3,8 +3,13 @@ import { MenuList } from './components/MenuList'
 
 export function HeroSection() {
   return (
-    <section id="home" className="mx-2 mt-4 sm:mt-8">
-      <h2 className="font-cursive text-center text-2xl tracking-wide">
+    <section id="home" className="px-2 pt-4 sm:pt-8">
+      <p className="text-shadow mt-16 text-center text-sm font-semibold text-pretty sm:text-lg">
+        HALAL FOOD. Senin-Sabtu, 17:00-23:00 WIB. Kota Tebing Tinggi, Sumatera
+        Utara
+      </p>
+
+      <h2 className="font-cursive mt-2 text-center text-2xl tracking-wide">
         Menu Pilihan
       </h2>
 
