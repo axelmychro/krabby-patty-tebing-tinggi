@@ -33,7 +33,7 @@ export function OrderCTA({ variant = 'gofood', size = 'md' }) {
       href={selectedVariant.href}
       target="_blank"
       rel="noopener noreferrer"
-      className={`${selectedVariant.bgColor} ${selectedVariant.borderColor} ${selectedVariant.textColor} p-2 uppercase ${selectedSizeClass} flex items-center justify-center gap-2 border-4 text-lg leading-none font-semibold shadow`}
+      className={`${selectedVariant.bgColor} duration-200 hover:scale-103 focus:scale-103 ${selectedVariant.borderColor} ${selectedVariant.textColor} p-2 uppercase ${selectedSizeClass} flex items-center justify-center gap-2 border-4 text-lg leading-none font-semibold shadow`}
     >
       {selectedVariant.icon} Order {selectedVariant.platform}{' '}
       <ArrowBigRight size={20} />

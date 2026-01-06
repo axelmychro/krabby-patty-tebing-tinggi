@@ -1,7 +1,7 @@
 import { useState } from 'preact/hooks'
 import { HeroSection } from './sections/HeroSection'
 import { MenuSection } from './sections/MenuSection'
-import { PageHeader, PageNav } from './Page'
+import { PageFooter, PageHeader, PageNav } from './Page'
 import {
   AboutSection,
   ContactSection,
@@ -13,13 +13,15 @@ export function App() {
   return (
     <>
       <PageHeader navOpen={navOpen} onNavToggle={() => setNavOpen(!navOpen)} />
-      <HeroSection />
-      <MenuSection />
-      <PageNav isOpen={navOpen} onClose={() => setNavOpen(false)} />
-
-      <AboutSection />
-      <LocationSection />
-      <ContactSection />
+      <main>
+        <HeroSection />
+        <MenuSection />
+        <PageNav isOpen={navOpen} onClose={() => setNavOpen(false)} />
+        <AboutSection />
+        <LocationSection />
+        <ContactSection />
+      </main>
+      <PageFooter />
     </>
   )
 }

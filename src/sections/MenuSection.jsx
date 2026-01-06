@@ -16,7 +16,7 @@ export function MenuSection() {
       <div className="flex items-center justify-center py-4">
         <a
           href="#about"
-          className="flex items-center gap-2 rounded-full border-2 bg-yellow-300 px-2 text-zinc-950"
+          className="flex items-center gap-2 rounded-full border-2 bg-yellow-300 px-2 text-zinc-950 duration-200 hover:scale-103 focus:scale-103"
         >
           Tentang kami <ArrowBigDown size={16} />
         </a>
