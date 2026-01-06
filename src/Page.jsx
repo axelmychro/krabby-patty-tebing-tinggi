@@ -41,14 +41,14 @@ export function PageHeader({ onNavToggle }) {
 export function PageNav({ isOpen, onClose }) {
   return (
     <nav
-      className={`fixed inset-0 left-[60%] z-10 space-y-4 border-l p-2 backdrop-blur-xs transition-transform duration-800 ease-out lg:hidden ${isOpen ? '' : 'translate-x-full'}`}
+      className={`fixed top-0 right-0 bottom-0 z-10 w-full max-w-xs space-y-4 border-l p-2 backdrop-blur-xs transition-transform duration-800 ease-out lg:hidden ${isOpen ? '' : 'translate-x-full'}`}
     >
       <button
         role="button"
         className="flex items-center gap-2 truncate rounded-md border bg-zinc-50 px-1 text-2xl capitalize duration-200 hover:scale-103 focus:scale-103 dark:bg-zinc-950"
         onClick={onClose}
       >
-        Kembali <ArrowBigRightDash />
+        Tutup <ArrowBigRightDash />
       </button>
       {navigationLinks.map(link => {
         const Icon = link.icon
