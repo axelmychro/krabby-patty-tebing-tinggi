@@ -7,13 +7,13 @@ import {
 
 export function OrderCTA({ variant = 'gofood', size = 'md' }) {
   const variants = {
-    whatsapp: {
-      href: 'https://wa.me/6285277760791',
-      platform: 'WhatsApp',
-      bgColor: 'bg-green-500',
-      borderColor: 'border-green-600',
-      textColor: 'text-yellow-50',
-      icon: <PhoneIncoming size={20} />,
+    grabfood: {
+      href: 'https://food.grab.com/id/id/restaurant/kraby-paty-tebing-tinggi-bandar-utama-delivery/6-C3U3CAWHMFBWVE',
+      platform: 'GrabFood',
+      bgColor: 'bg-green-700',
+      borderColor: 'border-green-800',
+      textColor: 'text-amber-50',
+      icon: <ShoppingBag size={20} />,
     },
     gofood: {
       href: 'https://gofood.co.id/pematangsiantar/restaurant/krabby-patty-tebing-tinggi-kota-5ae25c14-0da7-474b-9d8f-5d9b2fceb3e3',
@@ -23,13 +23,13 @@ export function OrderCTA({ variant = 'gofood', size = 'md' }) {
       textColor: 'text-yellow-50',
       icon: <Utensils size={20} />,
     },
-    grabfood: {
-      href: 'https://food.grab.com/id/id/restaurant/kraby-paty-tebing-tinggi-bandar-utama-delivery/6-C3U3CAWHMFBWVE',
-      platform: 'GrabFood',
-      bgColor: 'bg-emerald-500',
-      borderColor: 'border-emerald-600',
+    whatsapp: {
+      href: 'https://wa.me/6285277760791',
+      platform: 'WhatsApp',
+      bgColor: 'bg-green-500',
+      borderColor: 'border-green-600',
       textColor: 'text-white',
-      icon: <ShoppingBag size={20} />,
+      icon: <PhoneIncoming size={20} />,
     },
   }
 

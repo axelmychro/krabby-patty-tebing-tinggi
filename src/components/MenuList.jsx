@@ -56,9 +56,9 @@ export function MenuList({ filter = 'all', ctaSize = 'md' }) {
               ctaSize === 'sm' ? 'grid grid-cols-3 ' : 'flex flex-col '
             } mt-2`}
           >
-            <OrderCTA variant="whatsapp" size={ctaSize} />
-            <OrderCTA variant="gofood" size={ctaSize} />
             <OrderCTA variant="grabfood" size={ctaSize} />
+            <OrderCTA variant="gofood" size={ctaSize} />
+            <OrderCTA variant="whatsapp" size={ctaSize} />
           </div>
         </div>
       ))}
