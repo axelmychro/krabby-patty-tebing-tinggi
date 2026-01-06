@@ -1,10 +1,23 @@
-import { Utensils, ShoppingBag, ArrowBigRight } from 'lucide-preact'
+import {
+  PhoneIncoming,
+  Utensils,
+  ShoppingBag,
+  ArrowBigRight,
+} from 'lucide-preact'
 
 export function OrderCTA({ variant = 'gofood', size = 'md' }) {
   const variants = {
+    whatsapp: {
+      href: 'https://wa.me/6285277760791',
+      platform: 'WhatsApp',
+      bgColor: 'bg-green-500',
+      borderColor: 'border-green-600',
+      textColor: 'text-yellow-50',
+      icon: <PhoneIncoming size={20} />,
+    },
     gofood: {
       href: 'https://gofood.co.id/pematangsiantar/restaurant/krabby-patty-tebing-tinggi-kota-5ae25c14-0da7-474b-9d8f-5d9b2fceb3e3',
-      platform: 'GOFOOD',
+      platform: 'GoFood',
       bgColor: 'bg-red-500',
       borderColor: 'border-red-600',
       textColor: 'text-yellow-50',
@@ -12,9 +25,9 @@ export function OrderCTA({ variant = 'gofood', size = 'md' }) {
     },
     grabfood: {
       href: 'https://food.grab.com/id/id/restaurant/kraby-paty-tebing-tinggi-bandar-utama-delivery/6-C3U3CAWHMFBWVE',
-      platform: 'GRABFOOD',
-      bgColor: 'bg-green-500',
-      borderColor: 'border-green-600',
+      platform: 'GrabFood',
+      bgColor: 'bg-emerald-500',
+      borderColor: 'border-emerald-600',
       textColor: 'text-white',
       icon: <ShoppingBag size={20} />,
     },
