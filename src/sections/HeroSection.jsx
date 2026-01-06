@@ -8,7 +8,7 @@ export function HeroSection() {
       className="flex min-h-screen flex-col items-center justify-center px-2 pt-4 sm:pt-8"
     >
       <p className="text-shadow mt-16 text-center text-sm tracking-wide text-pretty sm:text-lg">
-        HALAL FOOD. Buka Senin-Sabtu, 17:00-23:00 WIB. Kota Tebing Tinggi,
+        HALAL FOOD. Buka Senin-Sabtu, 19:00-24:00 WIB. Kota Tebing Tinggi,
         Sumatera Utara
       </p>
 

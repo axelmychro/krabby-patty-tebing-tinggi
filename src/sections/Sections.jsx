@@ -143,7 +143,7 @@ export function ContactSection() {
       </div>
 
       <p className="mt-2 max-w-xl text-center text-2xl">
-        Buka Senin-Sabtu, 17:00-23:00 WIB
+        Buka Senin-Sabtu, 19:00-24:00 WIB
       </p>
     </section>
   )
