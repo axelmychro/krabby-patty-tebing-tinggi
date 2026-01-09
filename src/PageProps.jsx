@@ -3,7 +3,7 @@ import { ArrowBigRightDash, MenuSquare } from 'lucide-preact'
 
 export function PageHeader({ onNavToggle }) {
   return (
-    <header className="fixed top-0 right-0 left-0 z-10 flex min-h-16 min-w-full items-center justify-end bg-red-400 px-2 sm:px-4 lg:px-8 lg:py-2">
+    <header className="fixed top-0 right-0 left-0 z-10 flex min-h-16 min-w-full items-center justify-end border-b-2 bg-red-400 px-2 sm:px-4 lg:px-8 lg:py-2">
       <a className="flex-1" href="#">
         <h1 className="font-display text-shadow text-2xl not-sm:text-balance sm:text-3xl">
           Kraby Paty Tebing Tinggi
